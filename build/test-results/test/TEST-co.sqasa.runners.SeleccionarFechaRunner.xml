@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.sqasa.runners.SeleccionarFechaRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T20:49:02" hostname="PUNKY" time="23.149">
+<testsuite name="co.sqasa.runners.SeleccionarFechaRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T22:44:36" hostname="PUNKY" time="9.62">
   <properties/>
-  <testcase name="seleccion_fecha_mes_diferente_exitosa" classname="co.sqasa.runners.SeleccionarFechaRunner" time="23.149"/>
+  <testcase name="seleccion_fecha_mes_diferente_exitosa" classname="co.sqasa.runners.SeleccionarFechaRunner" time="9.62"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
@@ -9,15 +9,13 @@ SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
 SLF4J(W): Ignoring binding found at [jar:file:/C:/Users/elsan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.7/8095d0b9f7e0a9cd79a663c740e0f8fb31d0e2c8/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-nov. 13, 2025 3:49:04 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+nov. 13, 2025 5:44:37 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 142.0.7444.162 (c076baf266c3ed5efb225de664cfa7b183668ad6-refs/branch-heads/7444@{#2498}) on port 35136
+Starting ChromeDriver 142.0.7444.162 (c076baf266c3ed5efb225de664cfa7b183668ad6-refs/branch-heads/7444@{#2498}) on port 43598
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 35136.
-nov. 13, 2025 3:49:07 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 43598.
+nov. 13, 2025 5:44:39 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-nov. 13, 2025 3:49:29 P. M. org.openqa.selenium.os.OsProcess destroy
-GRAVE: Unable to kill process Process[pid=9020, exitValue=1]
 ]]></system-err>
 </testsuite>

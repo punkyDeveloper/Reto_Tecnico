@@ -8,10 +8,10 @@ import org.openqa.selenium.WebDriver;
 
 public class CambiarFocoAFrame implements Task {
 
-    private final int frameIndex;  // ✅ CAMBIO: ahora es int en lugar de String
+    private final int frameIndex;
 
     // Constructor que recibe el índice del iframe
-    public CambiarFocoAFrame(int frameIndex) {  // ✅ CAMBIO: int en lugar de String
+    public CambiarFocoAFrame(int frameIndex) {
         this.frameIndex = frameIndex;
     }
 
@@ -20,7 +20,7 @@ public class CambiarFocoAFrame implements Task {
         // Obtener el driver
         WebDriver driver = BrowseTheWeb.as(actor).getDriver();
 
-        // ✅ CAMBIO: Descomentado y funcional
+
         driver.switchTo().frame(frameIndex);
     }
 
